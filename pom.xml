@@ -5,8 +5,7 @@
   <artifactId>common-maven-parent</artifactId>
   <version>1.0.1.RELEASE</version>
   <packaging>pom</packaging>
-
-  <name>flower</name>
+  <name>common-maven-parent</name>
   <description>定义常用maven配置信息，省时好用。</description>
   <url>https://github.com/${github.org}/${github.repo}.git</url>
   <licenses>
@@ -23,7 +22,9 @@
       <url>github.com/leeyazhou</url>
     </contributor>
   </contributors>
-
+  <prerequisites>
+    <maven>3.0</maven>
+  </prerequisites>
   <scm>
     <connection>scm:git:git@github.com:${github.org}/${github.repo}.git</connection>
     <developerConnection>scm:git:git@github.com:${github.org}/${github.repo}.git</developerConnection>
