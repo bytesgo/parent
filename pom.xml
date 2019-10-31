@@ -44,16 +44,6 @@
         <system>travis-ci</system>
         <url>https://travis-ci.org/${github.org}/${github.repo}</url>
     </ciManagement>
-    <distributionManagement>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
 
     <properties>
         <github.org>leeyazhou</github.org>
@@ -334,11 +324,11 @@
             <id>release</id>
             <distributionManagement>
                 <repository>
-                    <id>ossrh</id>
+                    <id>ossrh-releases</id>
                     <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
                 </repository>
                 <snapshotRepository>
-                    <id>ossrh</id>
+                    <id>ossrh-snapshots</id>
                     <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
                 </snapshotRepository>
             </distributionManagement>
@@ -367,14 +357,14 @@
                                 <id>attach-javadocs</id>
                                 <goals>
                                     <goal>jar</goal>
+                                    <goal>aggregate</goal>
                                 </goals>
                                 <phase>install</phase>
                                 <configuration>
-                                    <aggregate>true</aggregate>
                                     <charset>${project.build.sourceEncoding}</charset>
                                     <encoding>${project.build.sourceEncoding}</encoding>
                                     <docencoding>${project.build.sourceEncoding}</docencoding>
-                                    <additionalparam>-Xdoclint:none</additionalparam>
+                                    <additionalJOption>-Xdoclint:none</additionalJOption>
                                 </configuration>
                             </execution>
                         </executions>
