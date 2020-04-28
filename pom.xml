@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.leeyazhou</groupId>
-    <artifactId>common-maven-parent</artifactId>
-    <version>4</version>
+    <artifactId>parent</artifactId>
+    <version>5</version>
     <packaging>pom</packaging>
-    <name>common-maven-parent</name>
+    <name>${project.artifactId}</name>
     <description>定义常用maven配置信息，省时好用。</description>
     <url>https://github.com/${github.org}/${github.repo}.git</url>
     <licenses>
@@ -47,7 +47,7 @@
 
     <properties>
         <github.org>leeyazhou</github.org>
-        <github.repo>common-maven-parent</github.repo>
+        <github.repo>parent</github.repo>
         <jdk.version>1.7</jdk.version>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
         <maven.compiler.source>${jdk.version}</maven.compiler.source>
