@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.leeyazhou</groupId>
     <artifactId>common-maven-parent</artifactId>
-    <version>3</version>
+    <version>4</version>
     <packaging>pom</packaging>
     <name>common-maven-parent</name>
     <description>定义常用maven配置信息，省时好用。</description>
@@ -324,11 +324,11 @@
             <id>release</id>
             <distributionManagement>
                 <repository>
-                    <id>ossrh-releases</id>
+                    <id>ossrh</id>
                     <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
                 </repository>
                 <snapshotRepository>
-                    <id>ossrh-snapshots</id>
+                    <id>ossrh</id>
                     <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
                 </snapshotRepository>
             </distributionManagement>
