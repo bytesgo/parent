@@ -1,1 +1,1 @@
-# common-maven-parent
+# parent
