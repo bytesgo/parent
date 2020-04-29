@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.leeyazhou</groupId>
     <artifactId>parent</artifactId>
-    <version>5</version>
+    <version>5.1</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>定义常用maven配置信息，省时好用。</description>
@@ -345,7 +345,7 @@
                                 <goals>
                                     <goal>jar-no-fork</goal>
                                 </goals>
-                                <phase>install</phase>
+                                <phase>verify</phase>
                             </execution>
                         </executions>
                     </plugin>
@@ -359,7 +359,7 @@
                                     <goal>jar</goal>
                                     <goal>aggregate</goal>
                                 </goals>
-                                <phase>install</phase>
+                                <phase>verify</phase>
                                 <configuration>
                                     <charset>${project.build.sourceEncoding}</charset>
                                     <encoding>${project.build.sourceEncoding}</encoding>
