@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.github.leeyazhou</groupId>
+    <groupId>com.bytesgo</groupId>
     <artifactId>parent</artifactId>
-    <version>5.1</version>
+    <version>1</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
-    <description>定义常用maven配置信息，省时好用。</description>
+    <description>bytesgo parent</description>
     <url>https://github.com/${github.org}/${github.repo}.git</url>
     <licenses>
         <license>
@@ -27,7 +27,7 @@
         <contributor>
             <name>leeyazhou</name>
             <email>coderhook@gmail.com</email>
-            <url>github.com/leeyazhou</url>
+            <url>github.com/bytesgo</url>
         </contributor>
     </contributors>
     <scm>
@@ -46,7 +46,7 @@
     </ciManagement>
 
     <properties>
-        <github.org>leeyazhou</github.org>
+        <github.org>bytesgo</github.org>
         <github.repo>parent</github.repo>
         <jdk.version>1.7</jdk.version>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
