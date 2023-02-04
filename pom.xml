@@ -49,10 +49,10 @@
         <github.org>bytesgo</github.org>
         <github.repo>parent</github.repo>
         <jdk.version>1.8</jdk.version>
-		<maven.compiler.source>${jdk.version}</maven.compiler.source>
-		<maven.compiler.target>${jdk.version}</maven.compiler.target>
-		<maven.compiler.compilerVersion>${jdk.version}</maven.compiler.compilerVersion> 
+        <maven.compiler.compilerVersion>${jdk.version}</maven.compiler.compilerVersion>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <maven.compiler.source>${jdk.version}</maven.compiler.source>
+        <maven.compiler.target>${jdk.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
