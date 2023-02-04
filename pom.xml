@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.bytesgo</groupId>
     <artifactId>parent</artifactId>
-    <version>1</version>
+    <version>2</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>bytesgo parent</description>
@@ -48,10 +48,11 @@
     <properties>
         <github.org>bytesgo</github.org>
         <github.repo>parent</github.repo>
-        <jdk.version>1.7</jdk.version>
+        <jdk.version>1.8</jdk.version>
+		<maven.compiler.source>${jdk.version}</maven.compiler.source>
+		<maven.compiler.target>${jdk.version}</maven.compiler.target>
+		<maven.compiler.compilerVersion>${jdk.version}</maven.compiler.compilerVersion> 
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-        <maven.compiler.source>${jdk.version}</maven.compiler.source>
-        <maven.compiler.target>${jdk.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -310,7 +311,7 @@
                                     <version>[3.0,)</version>
                                 </requireMavenVersion>
                                 <requireJavaVersion>
-                                    <version>[1.6, )</version>
+                                    <version>[1.8, )</version>
                                 </requireJavaVersion>
                             </rules>
                         </configuration>
