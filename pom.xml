@@ -49,18 +49,18 @@
         <github.org>bytesgo</github.org>
         <github.repo>parent</github.repo>
         <jdk.version>1.8</jdk.version>
+        <maven.antrun.plugin.version>1.8</maven.antrun.plugin.version>
         <maven.compiler.compilerVersion>${jdk.version}</maven.compiler.compilerVersion>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
         <maven.compiler.source>${jdk.version}</maven.compiler.source>
         <maven.compiler.target>${jdk.version}</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.antrun.plugin.version>1.8</maven.antrun.plugin.version>
         <maven.deploy.plugin.version>3.0.0</maven.deploy.plugin.version>
+        <maven.enforcer.plugin.version>3.0.0</maven.enforcer.plugin.version>
         <maven.failsafe.plugin.version>3.0.0</maven.failsafe.plugin.version>
         <maven.install.plugin.version>3.0.0</maven.install.plugin.version>
         <maven.surefire.plugin.version>3.0.0</maven.surefire.plugin.version>
-        <maven.enforcer.plugin.version>3.0.0</maven.enforcer.plugin.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <build>
