@@ -46,7 +46,7 @@
   </ciManagement>
 
   <properties>
-    <central.publishing.maven.plugin>0.5.0</central.publishing.maven.plugin>
+    <central.publishing.maven.plugin>0.6.0</central.publishing.maven.plugin>
     <github.org>bytesgo</github.org>
     <github.repo>parent</github.repo>
     <jdk.version>1.8</jdk.version>
