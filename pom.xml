@@ -78,7 +78,7 @@
     <maven.license.plugin.version>4.6</maven.license.plugin.version>
     <maven.nexus.staging.plugin.version>1.6.8</maven.nexus.staging.plugin.version>
     <maven.plugin.version>3.12.0</maven.plugin.version>
-    <maven.project.info.reports.plugin.version>3.5.0</maven.project.info.reports.plugin.version>
+    <maven.project.info.reports.plugin.version>3.8.0</maven.project.info.reports.plugin.version>
     <maven.rat.plugin.version>0.13</maven.rat.plugin.version>
     <maven.release.plugin.version>3.0.1</maven.release.plugin.version>
     <maven.remote.resources.plugin.version>3.1.0</maven.remote.resources.plugin.version>
