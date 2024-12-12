@@ -51,7 +51,7 @@
     <github.repo>parent</github.repo>
     <jdk.version>1.8</jdk.version>
     <maven.antrun.plugin.version>1.8</maven.antrun.plugin.version>
-    <maven.assembly.plugin.version>3.1.1</maven.assembly.plugin.version>
+    <maven.assembly.plugin.version>3.7.1</maven.assembly.plugin.version>
     <maven.checkstyle.plugin.version>3.3.1</maven.checkstyle.plugin.version>
     <maven.clean.plugin.version>3.3.2</maven.clean.plugin.version>
     <maven.clirr.plugin.version>2.8</maven.clirr.plugin.version>
