@@ -75,7 +75,7 @@
     <maven.invoker.plugin.version>3.2.1</maven.invoker.plugin.version>
     <maven.jar.plugin.version>3.3.0</maven.jar.plugin.version>
     <maven.javadoc.plugin.version>3.6.3</maven.javadoc.plugin.version>
-    <maven.license.plugin.version>3.0</maven.license.plugin.version>
+    <maven.license.plugin.version>4.6</maven.license.plugin.version>
     <maven.nexus.staging.plugin.version>1.6.8</maven.nexus.staging.plugin.version>
     <maven.plugin.version>3.12.0</maven.plugin.version>
     <maven.project.info.reports.plugin.version>3.5.0</maven.project.info.reports.plugin.version>
