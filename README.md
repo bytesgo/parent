@@ -1,3 +1,3 @@
-# parent
+# bytesgo-parent
 
 bytesgo parent
